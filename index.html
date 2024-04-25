@@ -2,33 +2,38 @@
 <html lang="pt-br">
 
 <link rel="stylesheet" href="style.css">
+
 <head>
     <title>Projeto Final - 1 entrega</title>
 </head>
-    <body>
-        <div class="calculador">
 
-            <h1>Projeto final - 1 entrega</h1>
-  
-            <p>Valor (R$): 
-                <br>
-                <input id="quantia" type="number" 
-                onchange="calculador()">
-            </p>
-  
-            <p>Taxa de Juros:
-                <input id="juros" type="number" 
-                onchange="calculador()">
-            </p>
-  
-            <p>Meses para pagar:
-                <input id="meses" type="number" 
-                onchange= "calculador()">
-            </p>
-  
-            <h2 id="total"></h2>
-        </div>
-  
-        <script src="index.js"></script>
-    </body>
+<body>
+    <div class="apresentação">
+        <p class="textoApresentacao">Nosso site oferece uma calculadora de taxa de juros simples e fácil de usar.<br> Com apenas alguns cliques, você
+            pode calcular facilmente os juros sobre empréstimos, investimentos ou financiamentos.
+            Nossa ferramenta
+            fornece resultados rápidos e precisos, ajudando você a tomar decisões financeiras informadas. Experimente
+            agora e simplifique seus cálculos de juros!"</p>
+    </div>
+    <div class="calculador">
+
+        <h1>Descomplicando o Juros</h1>
+
+        <p>Valor (R$):
+            <br>
+            <input id="quantia" type="number" onchange="calculador()">
+        </p>
+
+        <p>Taxa de Juros:
+            <input id="juros" type="number" onchange="calculador()">
+        </p>
+
+        <p>Meses para pagar:
+            <input id="meses" type="number" onchange="calculador()">
+        </p>
+
+        <h2 id="total"></h2>
+    </div>
+    <script src="index.js"></script>
+</body>
 </html>
